@@ -9,7 +9,7 @@ class HaGpsPacket : public BaseNaio01Packet
 {
 public:
 	HaGpsPacket( );
-	HaGpsPacket( uint64_t time_, double lat_, double lon_, double alt_, uint8_t unit_,	uint8_t satUsed_, uint8_t quality_,	double groundSpeed_ );
+	HaGpsPacket( ulong time_, double lat_, double lon_, double alt_, uint8_t unit_,	uint8_t satUsed_, uint8_t quality_,	double groundSpeed_ );
 
 	~HaGpsPacket( );
 
