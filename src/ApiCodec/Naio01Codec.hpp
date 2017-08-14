@@ -4,6 +4,7 @@
 #include <memory>
 #include <vector>
 #include "vitals/CLBuffer.hpp"
+#include "vitals/CLTypes.h"
 #include "BaseNaio01Packet.hpp"
 
 class Naio01Codec
