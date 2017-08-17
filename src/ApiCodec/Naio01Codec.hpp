@@ -70,7 +70,8 @@ class Naio01Codec
 
 	bool firstPacketIdxAndSize( uint8_t *buffer, uint bufferSize, uint &firstPacketIdx, uint &firstPacketSize );
 
-	uint8_t workingBuffer[2200000];
+	uint workingBufferSize;
+	uint8_t* workingBuffer;
 
 	std::vector<BaseNaio01PacketPtr> currentBasePacketList;
 

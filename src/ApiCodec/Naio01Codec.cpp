@@ -43,6 +43,8 @@
 //=============================================================================
 //
 Naio01Codec::Naio01Codec() :
+		workingBufferSize{ 2200000 },
+		workingBuffer{ new uint8_t[workingBufferSize] },
 		currentBasePacketList{ },
 		maxCapacity{ 1000000 },
 		currentBufferPos{0},
